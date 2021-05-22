@@ -13,11 +13,10 @@ def read_from_csv(path):
             text.append(line[1])
         return text
 
-yelp_test = '../corpus/data/test.csv'
-yelp_train = '../data/train.csv'
+yelp_test = '../corpus/yelp/test.csv'
+yelp_train = '../corpus/yelp/train.csv'
 test_samples = read_from_csv(yelp_test)
 train_samples = read_from_csv(yelp_train)
-
 print(len(test_samples + train_samples))
 
 word_to_ix = {}
