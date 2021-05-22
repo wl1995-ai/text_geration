@@ -6,7 +6,7 @@ import pickle
 import heapq
 import math
 
-class wangl:
+class graph_softmax:
     @staticmethod
     @enable_grad()
 
