@@ -23,7 +23,7 @@ reference = []
 for text in test_samples + train_samples:
     reference.append(word_tokenize(text))
 
-with open('sample.csv', 'r',encoding='utf-8') as f:
+with open('./sample/sample.csv', 'r',encoding='utf-8') as f:
     next(f)
     lines = f.readlines()
     for line in lines:
